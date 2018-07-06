@@ -1,0 +1,56 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/build/include/",
+        "${env:IDF_PATH}/components/",
+        "${env:IDF_PATH}/components/freertos/include/",
+        "${env:IDF_PATH}/components/nvs_flash/include/",
+        "${env:IDF_PATH}/components/esp32/include/",
+        "${env:IDF_PATH}/components/log/include/",
+        "${env:IDF_PATH}/components/soc/esp32/include/",
+        "${env:IDF_PATH}/components/soc/include/",
+        "${env:IDF_PATH}/components/newlib/include/",
+        "${env:IDF_PATH}/components/bt/bluedroid/api/include/",
+        "${env:IDF_PATH}/components/bt/include/",
+        "${env:IDF_PATH}/components/heap/include/",
+        "${env:IDF_PATH}/components/driver/include/",
+        "${env:IDF_PATH}/components/bt/bluedroid/api/include/api/",
+        "${env:IDF_PATH}/components/tcpip_adapter/include",
+        "${env:IDF_PATH}/components/lwip/include/lwip/",
+        "${env:IDF_PATH}/components/lwip/include/lwip/port",
+
+        "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+        "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "",
+        "path": [
+          "${env:IDF_PATH}/components/",
+          "${env:IDF_PATH}/components/freertos/include/",
+          "${env:IDF_PATH}/components/nvs_flash/include",
+          "${env:IDF_PATH}/components/esp32/include/",
+          "${env:IDF_PATH}/components/newlib/include/",
+          "${env:IDF_PATH}/components/soc/include/",
+          "${env:IDF_PATH}/components/soc/esp32/include/",
+          "${env:IDF_PATH}/components/log/include",
+          "${env:IDF_PATH}/components/bt/bluedroid/api/include/",
+          "${env:IDF_PATH}/components/bt/include/",
+          "${env:IDF_PATH}/components/heap/include/",
+          "${env:IDF_PATH}/components/driver/include/",
+          "${env:IDF_PATH}/components/bt/bluedroid/api/include/api/",
+          "${env:IDF_PATH}/components/tcpip_adapter/include",
+          "${env:IDF_PATH}/components/lwip/include/lwip/",
+          "${env:IDF_PATH}/components/lwip/include/lwip/port",
+          
+          "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+          "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
+        ]
+      }
+    }
+  ],
+  "version": 4
+}

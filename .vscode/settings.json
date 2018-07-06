@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "esp_gap_bt_api.h": "c",
+        "esp_bt_main.h": "c",
+        "esp_bt_device.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "nvs.h": "c",
+        "freertosconfig.h": "c",
+        "sdkconfig.h": "c",
+        "esp_log.h": "c",
+        "queue.h": "c",
+        "periph_ctrl.h": "c",
+        "timer_group_struct.h": "c",
+        "timer.h": "c",
+        "esp_types.h": "c",
+        "gpio.h": "c",
+        "esp_wifi.h": "c",
+        "esp_event_loop.h": "c",
+        "nvs_flash.h": "c",
+        "ratio": "c",
+        "list": "c",
+        "esp_system.h": "c",
+        "chrono": "c",
+        "system_error": "c",
+        "type_traits": "c"
+    }
+}
