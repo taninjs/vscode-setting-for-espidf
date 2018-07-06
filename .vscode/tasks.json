@@ -47,7 +47,7 @@
         {
             "label": "menuconfig",
             "type": "shell",
-            "command": "make menuconfig",
+            "command": "gnome-terminal -- make menuconfig",
             "problemMatcher": [],
             "presentation": {
                 "echo": true,

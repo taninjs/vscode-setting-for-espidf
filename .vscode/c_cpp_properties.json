@@ -21,6 +21,7 @@
         "${env:IDF_PATH}/components/tcpip_adapter/include",
         "${env:IDF_PATH}/components/lwip/include/lwip/",
         "${env:IDF_PATH}/components/lwip/include/lwip/port",
+        "${env:IDF_PATH}/components/spi_flash/include",
 
         "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
         "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
@@ -45,6 +46,7 @@
           "${env:IDF_PATH}/components/tcpip_adapter/include",
           "${env:IDF_PATH}/components/lwip/include/lwip/",
           "${env:IDF_PATH}/components/lwip/include/lwip/port",
+          "${env:IDF_PATH}/components/spi_flash/include",
           
           "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
           "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
