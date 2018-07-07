@@ -97,13 +97,7 @@
         "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/std/battery/include",
         "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/std/dis/include",
         "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/esp/include",
-        
-
-
-       
-
-        
-        
+        "${env:IDF_PATH}/components/espmqtt/include",
 
         "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
         "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
@@ -203,6 +197,7 @@
           "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/std/battery/include",
           "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/std/dis/include",
           "${env:IDF_PATH}/components/bt/bluedroid/btc/profile/esp/include",
+          "${env:IDF_PATH}/components/espmqtt/include",
           
           "${env:XTENSA_ESP32_ELF_PATH}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
           "${env:XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include/c++/5.2.0"
